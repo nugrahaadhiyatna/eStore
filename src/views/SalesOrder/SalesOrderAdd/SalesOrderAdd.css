@@ -1,0 +1,22 @@
+.modal-body {
+    max-height: calc(100vh - 140px);
+    overflow-y: auto;
+}
+
+button.btn.btn-outline-dark.iconTrash {
+    border: 0px;
+    background: transparent;
+}
+
+button.btn.btn-outline-dark.iconTrash:active {
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-outline-dark:focus, .btn-outline-dark.focus {
+    box-shadow: 0 0 0 0 rgba(47, 53, 58, 0.5);
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-dark.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0 rgba(47, 53, 58, 0.5);
+}

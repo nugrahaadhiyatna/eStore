@@ -1,0 +1,30 @@
+.line-after {
+    overflow: hidden;
+}
+.line-after:after {
+    content: '';
+    border-bottom: 2px solid black;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    margin-right: -100%;
+    margin-left: 10px;
+}
+
+.font-variant-petite {
+    font-variant: petite-caps;
+}
+
+.btn:hover, .btn:focus {
+    text-decoration: underline;
+}
+
+.form-check-input {
+    margin-top: 0.34rem !important;    
+} 
+
+input[type=checkbox]:before {
+    width:12px !important;
+    height:12px !important;
+}
+

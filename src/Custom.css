@@ -1,0 +1,295 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.app {
+    display: initial;
+}
+.app.flex-row {
+    display: flex;
+}
+
+.modal-footer-action {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.progress-status li.active ~ li>a.nav-link {
+    color: #FFFFFF !important;
+    background: #27292d !important;
+}
+
+.progress-status li>a.nav-link {
+    color: #f8e714 !important;
+    background: #27292d !important;
+}
+
+.nav-tabs .nav-link.active {
+    /* color: #f8e714 !important; */
+    /* background: #27292d !important; */
+}
+
+.wrapper-scrollable {
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.bs-tooltip-bottom .arrow::before {
+    border-bottom-color: #fde80f;
+}
+.tooltip-inner {
+    color: #000000;
+    background-color: #fde80f;
+    border: 1px solid #fde80f;
+    border-radius: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.tooltip.show {
+    opacity: 1;
+}
+
+.init-table-content {
+    /* height: 500px;
+    background-color: transparent;
+    background-image: url("assets/custom/estore-FirstPage.png");
+    background-repeat: no-repeat;
+    border: 0;
+    background-position: 50% 50%;
+    background-size: 200px; */
+    height: 500px;
+    background-color: transparent;
+}
+
+.init-table-content>div {
+    margin-top: 91px;
+}
+
+.init-content-image {
+    height: 200px;
+    background-image: url("assets/custom/estore-FirstPage.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.not-found-content-image {
+    height: 200px;
+    background-image: url("assets/custom/estore-NoRecord.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.color-gray {
+    color: #a9b7c0;
+}
+
+.btn-link {
+color: #000000;
+background-color: transparent;
+}
+    
+.btn-link:hover a {
+/* text-decoration: underline;
+border-color: transparent;
+background-color: #fde80f; */
+}
+
+.btn-link-company {
+    cursor: pointer;
+}
+
+.bla {
+  cursor: pointer;
+}
+
+.btn-link-company:hover a,
+.btn-link-company:hover a:hover,
+.btn-link-company:hover span {
+    color: #000000;
+    text-decoration: underline;
+    background-color: #fde80f;
+}
+
+.fa-10x {
+    font-size: 10em;
+}
+
+input:focus,
+select:focus,
+.form-control:focus,
+.btn:focus
+{
+    box-shadow: none !important;
+    border-color: black;
+}
+button.dropdown-item {
+    outline: none;
+}
+
+.dropdown-item:hover,
+.dropdown-item:active {
+    color: #000000;
+    text-decoration: none;
+    background-color: #fde80f;
+    outline: none;
+    cursor: pointer;
+}
+
+.dropdown-item:focus {
+    background-color: transparent;
+}
+
+button.close:focus {
+    outline: none;
+}
+
+.no-radius {
+    border-radius: 0;
+}
+
+.input-group-custom>div:first-child {
+    position: relative;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgb(0, 0, 0);
+    }
+
+label {
+    font-weight: bold;
+}
+
+.tab-content {
+    margin-top: -1px;
+    background: #fff;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.border-black{
+    border-color: #000000; 
+}
+
+.titleMenu{
+  font-weight: 449;
+}
+
+
+
+h4.headerTitle{
+    font-weight: 670;
+}
+ 
+.readOnlyTextbox{
+    background-color: #FFFFFF !important;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('assets/custom/fonts/icomoon.eot?xtzyx5');
+  src:  url('assets/custom/fonts/icomoon.eot?xtzyx5#iefix') format('embedded-opentype'),
+    url('assets/custom/fonts/icomoon.ttf?xtzyx5') format('truetype'),
+    url('assets/custom/fonts/icomoon.woff?xtzyx5') format('woff'),
+    url('assets/custom/fonts/icomoon.svg?xtzyx5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="iconU-"], [class*=" iconU-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconU-delivery:before {
+  content: "\e901";
+  font-size: 3.5em;
+}
+.iconU-delivery_1:before {
+  content: "\e902";
+}
+.iconU-easy_integration:before {
+  content: "\e903";
+}
+.iconU-ecomerce_fulfillment:before {
+  content: "\e904";
+}
+.iconU-freight_optimisation:before {
+  content: "\e905";
+}
+.iconU-gearIcon:before {
+  content: "\e906";
+}
+.iconU-lower_freight_costs:before {
+  content: "\e907";
+}
+.iconU-pick-packbox:before {
+  content: "\e908";
+}
+.iconU-retail_store_fulfillment:before {
+  content: "\e909";
+}
+.iconU-returns:before {
+  content: "\e90a";
+}
+.iconU-rf_scanning:before {
+  content: "\e90b";
+}
+.iconU-scale_your_business_demand:before {
+  content: "\e90c";
+}
+.iconU-secure_warehouses:before {
+  content: "\e90d";
+}
+.iconU-shoppingTrolley:before {
+  content: "\e90e";
+}
+.iconU-value_added_services:before {
+  content: "\e90f";
+}
+.iconU-warehouse_management:before {
+  content: "\e910";
+}
+.iconU-warehousing:before {
+  content: "\e911";
+}
+.iconU-automatic_cartonisation:before {
+  content: "\e912";
+}
+.iconU-boxesIcon:before {
+  content: "\e913";
+}
+.iconU-competitive_pricing:before {
+  content: "\e914";
+}
+.iconU-cross_docking:before {
+  content: "\e915";
+}
+.iconU-test:before {
+  content: "\e900";
+  color: #0089cf;
+}
+
+  
+  

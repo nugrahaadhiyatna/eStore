@@ -1,0 +1,64 @@
+.nav-tabs .nav-link.tab-custom {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    border: 2px solid #000000;
+    border-radius: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 50px;
+}
+
+.barisTabCustom{
+  height: 100%;
+  width: 486px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+.kolomTabCustom{
+  padding-left: 0px;
+  width: 50px;
+  padding-right: 0px;
+  border-top-width: 1px;
+}
+
+.arrowTabIcon{
+  height: 100%;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  margin-right: 0px;
+  background-color: #f8e714;
+  width: 46px;
+  margin-left: 0px;
+  border-right: 2px solid black;
+}
+
+.nav-tabs .nav-link.tab-custom:hover span {
+    color: #000000;
+    background: #f8e714;
+    text-decoration: underline;
+}
+
+.iconSpace-sepuluh{
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+  
+  .iconSpace-limabelas{
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+  
+  .tabTitleText{
+    font-size: 2em;
+    font-weight: 300px;
+  }
+  
+  .iconTabActive{
+    color: #000000;
+  }

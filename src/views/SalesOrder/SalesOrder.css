@@ -1,0 +1,78 @@
+/* NEW STYLE */
+.displayMoreColumn {
+    content: '';
+    background-image: url("../../assets/custom/salesorder-edittable.png");
+    background-position: 1px -1px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    border-radius: 0 0 0 100px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.displayMoreColumn:hover {
+    /* transition: all .1s; */
+    transform: scale(1.7);
+    transform-box: fill-box;
+    transform-origin: right top;
+    transform-style: flat;
+}
+
+/* main.main:after {
+    content: '';
+    height: 80px;
+    background-color: #fde80f;
+    width: 100%;
+    position: absolute;
+    margin-top: -54px;
+    margin-left: -82px;
+    z-index: -1;
+    bottom: 0;
+} */
+
+/* OVERRIDE STYLE */
+.sidebar .nav-link:hover {
+    color: #fde80f;
+    background: #b3b3a557;
+}
+
+.border-company,
+.card-footer.border-company {
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+#searchBox:focus {
+    z-index: 0;
+    box-shadow: none !important;
+    border-color: black;
+}
+
+.react-datepicker__input-container,
+.react-datepicker-wrapper {
+    display: block;
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled):active, .show > .btn-outline-dark.dropdown-toggle {
+    color: #000000;
+    background-color: transparent;
+    border-color: #000000;
+}
+
+.disable-Div-Click{
+    pointer-events: none;
+}
+
+.dropdown-item:focus {
+    background-color: none;
+}
+
+.dropdown-item:hover, .dropdown-item:active{
+    background-color: #fde80f !important;
+    cursor: default;
+}

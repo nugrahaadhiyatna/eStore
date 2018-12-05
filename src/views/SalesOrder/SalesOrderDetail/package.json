@@ -1,0 +1,7 @@
+{
+    "name": "Sales Order Detail",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./SalesOrderDetail.js"
+  }
+  

@@ -1,0 +1,217 @@
+.modal-company .modal-content {
+    border-color: #000000;
+}
+
+.modal-company .modal-header {
+    color: #27292d;;
+    background-color: #f8e714;
+}
+
+.progress-status {
+    background-color: #27292d;
+    /* width: 20px; */
+    margin: -1rem -1rem 0 -1rem;
+    height: 80px;
+}
+
+.btn.btn-company {
+    color: #27292d;
+    background-color: #fde80f;
+    border-color: #27292d !important;
+    border-radius: 0;
+}
+
+.btn-company-inverse {
+    color: #27292d;
+    background-color: transparent;
+    border-color: #27292d !important;
+    border-radius: 0;
+}
+
+.btn-company-inverse:hover {
+    color: #27292d;
+    background-color: #fde80f;
+    border-color: #27292d !important;
+    border-radius: 0;
+}
+
+.btn-group-toggle>label.btn {
+    margin-left: 4px;
+    background-color: transparent;
+}
+
+.btn-group-toggle>label.active {
+    margin-left: 4px;
+    background-color: #fde80f;
+}
+
+.btn-group-toggle>label:first-child {
+    margin-left: 0;
+}
+
+.btn.btn-link.link-company-old {
+    background: transparent;
+    border: none;
+    padding: 0;
+    color: #fdc810;
+}
+
+/* add */
+.col.scrollDetail {
+    overflow-y: scroll;
+    height: 54vh;
+}
+
+ul.nav.nav-tabs.salesOrderTabs {
+    background: rgba(77, 73, 70, 0);
+}
+
+img.pointer {
+    cursor: pointer;
+}
+
+
+/* add */
+
+.progress-status {
+    overflow: hidden;
+}
+.progress-status li {
+    float: left;
+    position: relative;
+}
+.progress-status li:before {
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    content: ' ';
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 auto 0 auto;
+    background-color: #f8e714;
+    z-index: 2;
+    position: relative;
+}
+.progress-status li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #f8e714;
+    top: 4px;
+    left: -50%;
+    z-index: 1;
+}
+.progress-status li:first-child:after {
+    content: none;
+}
+
+.progress-status li.active ~ li:before {
+    background-color: white;
+}
+
+.progress-status li.active ~ li:after {
+    background-color: white;
+}
+
+button.company-link:hover,
+a.company-link:hover {
+    background-color: #fde80f;
+    color: black;
+    cursor: pointer;
+}
+
+button.company-link,
+a.company-link {
+    color: black;
+    vertical-align: unset;
+    cursor: pointer;
+}
+
+.modal-content {
+    border: 0 !important;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.app {
+    /* display: initial !important; */
+}
+
+main.main:before {
+    content: '';
+    height: 420px;
+    background-color: #fde80f;
+    width: 100%;
+    position: absolute;
+    margin-top: -54px;
+    margin-left: -82px;
+    background-image: url("./assets/custom/pattern.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.company-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fde80f;
+    background-image: url("./assets/custom/pattern.png");
+    background-position: center;
+    background-size: cover;
+}
+/* 
+.moreFieldRow {
+    content: '';
+    background-image: url("assets/custom/salesorder-edittable.png");
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    right: 19px;
+    top: 19px;
+}
+*/
+.bg-company {
+    background-color: #fde80f;
+}
+
+.modal-content {
+    border: 0 !important;
+}
+
+input[type=checkbox]:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-color: white;
+    background-image: url("assets/custom/salesorder-checkbox0.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+input[type=checkbox]:checked:before {
+    background-image: url("assets/custom/salesorder-checkbox1.png");
+}
+input[type=checkbox]:disabled:before {
+    background-color: #CCCCCC;
+}
